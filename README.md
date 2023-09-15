@@ -6,6 +6,7 @@ This repo contains a terraform module intended to attach variable sets to Terraf
 
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
+- [Key Note](#key-note)
 
 ## Prerequisites
 
@@ -36,3 +37,9 @@ module "tfc_ws-varset" {
     varset = ["varsetName1", "varsetName2", "varsetName3"]
 }
 ```
+
+## Key Note
+
+I wrote this module for my demo purposes; please make the necessary changes to the code to fit your own environments. This can be a starting template for your automation of variable sets to terraform cloud workspaces.
+
+If you intend to use this in your organisation environment, please do so at your own risks!
