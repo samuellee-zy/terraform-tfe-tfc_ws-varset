@@ -23,6 +23,8 @@ You will need to configure the following variables as part of this module:
 | tags    | List of all tags to be filtered for               | list   |
 | varset  | List of all variable sets to attach to workspaces | list   |
 
+_Note: This module has been tested by running Terraform locally where [TFC User/Teams Token](https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/api-tokens) has been attached to my local machine; You can also run it via TFC, but ensure that you have the TFC API Token attached to your workspace_
+
 ## Usage
 
 ```hcl
