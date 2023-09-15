@@ -27,7 +27,7 @@ You will need to configure the following variables as part of this module:
 
 ```hcl
 module "tfc_ws-varset" {
-    source = "terraform-tfc-modules/..."
+    source = "app.terraform.io/<insert tfc org name>/tfc_ws-varset/tfe"
 
     orgName = "<Insert TFC Organisation Name>"
     tags = ["tag1", "tag2", "tag3"]
