@@ -1,4 +1,4 @@
-data "tfe_workspace_ids" "all-aws" {
+data "tfe_workspace_ids" "ws-ids" {
     tag_names = var.tags
     organization = var.orgName
 }

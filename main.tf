@@ -1,5 +1,5 @@
 locals {
-    ws_ids = values(data.tfe_workspace_ids.all-aws.ids)
+    ws_ids = values(data.tfe_workspace_ids.ws-ids.ids)
     varset_ids = values({ for k, v in data.tfe_variable_set.varset : k => v.id })
     ws_varset = flatten([
         for workspaces in local.ws_ids : [
